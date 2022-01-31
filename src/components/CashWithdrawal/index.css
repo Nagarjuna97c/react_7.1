@@ -1,0 +1,104 @@
+.main-container {
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  margin: 20px;
+  background-color: #150b3e;
+  border-radius: 10px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.unordered-list {
+  padding: 18px;
+}
+
+.para1 {
+  font-family: 'Roboto';
+  font-size: 28px;
+  border-radius: 12px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para2 {
+  font-family: 'Roboto';
+  font-size: 28px;
+  border-radius: 12px;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+
+.balance-amount-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.para3 {
+  font-size: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin-top: 17px;
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #0b69ff;
+}
+
+.denominations-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 8px;
+  list-style-type: none;
+}
